@@ -19,5 +19,6 @@ function majority(inputArr){
     return false;
 }
 
+// example
 var inputArr=[3,1,3,4,4,5,3,5,3,3,3,6,3];
 majority(inputArr)
