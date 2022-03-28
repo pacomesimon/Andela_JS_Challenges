@@ -1,6 +1,6 @@
 function primeNumbersFilter(inputArr){
     var outputArr=[];
-    for(i in inputArr){
+    for(var i in inputArr){
         if(checkPrime(inputArr[i])){
             outputArr.push(inputArr[i]);
         }
